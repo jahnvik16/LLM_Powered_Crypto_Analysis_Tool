@@ -1,4 +1,5 @@
 LLM-Powered Cryptocurrency Analysis Agent:
+
 This project implements a multi-agent, LLM-powered system for cryptocurrency market analysis. It leverages LangChain for workflow orchestration, Groq for optimized inference with Llama 3 models, and external APIs for real-time data retrieval. The system produces consolidated reports by combining news sentiment analysis with historical price analysis.
 
 Features:
