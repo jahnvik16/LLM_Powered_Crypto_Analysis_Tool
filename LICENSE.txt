@@ -1,0 +1,12 @@
+mermaid
+flowchart TD
+    A[User Query] --> B[Groq LLaMA 3 Model]
+    B --> C[CrewAI Orchestrator]
+    C --> D[News Agent - Exa API]
+    C --> E[Market Analysis Agent]
+    C --> F[Summary Agent]
+    D --> G[Crypto News Data]
+    E --> G
+    F --> H[Summarized Insight]
+    G --> F
+    H --> I[Final Report / Dashboard]
